@@ -5,7 +5,7 @@ import bs58 from 'bs58'; // Import bs58 for base58 encoding
 import { Buffer } from 'buffer';
 global.Buffer = Buffer;
 
-const PRIVATE_KEY = "RLwE7dYGQpv7jKFjXcQRbUxDajzTrJWUX69hGNtYfFvv8wkvpckMMTsZhfF2fuXxwA2ik4dw7W3Nxbdd9GdEuLm"; // Private key from phantom
+const PRIVATE_KEY = ""; // Private key from phantom
 const secret = bs58.decode(PRIVATE_KEY);
 
 // Check if the pk is correct 

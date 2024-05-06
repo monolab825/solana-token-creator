@@ -1,0 +1,71 @@
+.background {
+  background: linear-gradient(135deg, #2f3e96, #0e0e0e);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  width: 45%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.8), 0 48px 48px rgba(0, 0, 0, 0.7); /* Stronger box shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.left-card {
+  background-color: #030c1d; /* Dark blue color */
+  color: #3954fd; /* White text color for contrast */
+}
+
+.right-card {
+  background-color: #030c1d; /* Dark blue color */
+  color: #3954fd; /* White text color for contrast */
+}
+
+
+.left-card input, .left-card button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #333;
+  border: none;
+  border-radius: 8px; /* Adjust border radius for buttons */
+  padding: 15px; /* Increase padding for inputs and buttons */
+  margin: 10px 0; /* Increase margin for inputs and buttons */
+  font-size: 18px; /* Increase font size for inputs and buttons */
+}
+
+.left-card button {
+  background-color: #667eea; /* Adjust button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 20px; /* Adjust button border radius */
+  padding: 15px 30px; /* Increase button padding */
+  margin: 10px 0; /* Adjust button margin */
+  font-size: 18px; /* Button font size */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect for hover */
+}
+
+.left-card button:hover {
+  background-color: #764ba2; /* Change button background color on hover */
+}
+
+.right-card {
+  padding: 20px; /* Increase padding for text */
+  border-radius: 8px; /* Adjust border radius for text */
+  font-size: 18px; /* Increase font size for text */
+}
+
